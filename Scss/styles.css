@@ -1,0 +1,114 @@
+/*extend*/
+.card2__label {
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  width: 60px;
+  font-size: 0.7rem;
+  background-color: red;
+  border-radius: 3px;
+  position: absolute;
+  color: white; }
+
+.card2 a {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  background: linear-gradient(to left, #5959fc, #1010fa); }
+
+.card2 a:hover {
+  background: white;
+  color: #5959fc;
+  border: 2px solid #5959fc; }
+
+/*flexbox*/
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; }
+
+/*card1*/
+.card1 {
+  position: relative;
+  width: 350px;
+  height: 410px;
+  margin: 10px;
+  background-image: url(../Images/bg-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white; }
+  .card1 img {
+    position: absolute;
+    right: 10%;
+    top: 10%; }
+  .card1__title {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5px; }
+    .card1__title span {
+      display: inline-block;
+      text-align: center;
+      font-size: 0.7rem;
+      width: 40px;
+      height: 18px;
+      border-radius: 25px;
+      position: relative;
+      left: 17%;
+      background-color: red;
+      line-height: 18px; }
+  .card1__content {
+    position: absolute;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-width: thick;
+    bottom: -2px;
+    height: 13%;
+    width: 96%;
+    text-indent: 9%;
+    left: 2%;
+    font-size: 0.7rem; }
+
+/*card2*/
+.card2 {
+  position: relative;
+  width: 340px;
+  height: 380px;
+  background-image: url(../Images/bg-3.png);
+  background-repeat: no-repeat;
+  margin: 10px;
+  box-shadow: 5px 0px 50px 0px #d1cfcf;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+  .card2__label {
+    top: 8%;
+    right: 8%; }
+  .card2__title {
+    position: absolute;
+    left: 5%;
+    top: 49%;
+    font-size: 1.5rem; }
+  .card2__content {
+    position: absolute;
+    left: 5%;
+    top: 57%;
+    line-height: 1.8rem;
+    background: -webkit-linear-gradient(#888686, #fffefe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .card2 a {
+    left: 30%;
+    top: 83%;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px; }
+
+/*# sourceMappingURL=styles.css.map */
