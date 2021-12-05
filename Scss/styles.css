@@ -1,5 +1,5 @@
 /*extend*/
-.card2__label {
+.card2__label, .card3__label {
   height: 20px;
   text-align: center;
   line-height: 20px;
@@ -110,5 +110,42 @@ ul {
     width: 140px;
     height: 40px;
     border-radius: 25px; }
+
+/*card3*/
+.card3 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-image: url(../Images/bg-4.png);
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-size: cover;
+  color: white; }
+  .card3__label {
+    top: 15%;
+    right: 9%; }
+  .card3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .card3__big-title {
+    position: absolute;
+    bottom: 21%;
+    left: 13%;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem; }
+  .card3__small-title {
+    position: absolute;
+    bottom: 13%;
+    left: 13%;
+    font-size: 0.8rem; }
+  .card3__dots {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 8%;
+    right: 8%; }
 
 /*# sourceMappingURL=styles.css.map */
