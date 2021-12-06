@@ -10,7 +10,7 @@
   position: absolute;
   color: white; }
 
-.card2 a {
+.card2 a, .card4 a {
   display: inline-block;
   position: absolute;
   color: white;
@@ -147,5 +147,43 @@ ul {
     position: absolute;
     bottom: 8%;
     right: 8%; }
+
+/*card4*/
+.card4 {
+  position: relative;
+  width: 140px;
+  height: 245px;
+  background-image: url(../Images/bg-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 10px;
+  background-size: cover;
+  color: white; }
+  .card4 img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .card4__title {
+    position: absolute;
+    padding: 4px;
+    border-bottom: 2px solid white;
+    top: 48%;
+    width: 9%;
+    text-indent: -142%;
+    left: 43%; }
+  .card4 a {
+    left: 4%;
+    bottom: 5%;
+    width: 130px;
+    height: 25px;
+    border-radius: 8px;
+    line-height: 25px;
+    font-size: 0.8rem; }
+  .card4 a:hover {
+    background: white;
+    color: #5959fc;
+    border: 2px solid #5959fc; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -168,3 +168,46 @@ ul{
         right: 8%;
     }
 }
+/*card4*/
+.card4{
+    position: relative;
+    width: 140px;
+    height: 245px;
+    background-image: url(../Images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    margin: 10px;
+    background-size: cover;
+    color: $font-color;
+    img{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__title{
+        position: absolute;
+        padding: 4px;
+        border-bottom: 2px solid $font-color;
+        top: 48%;
+        width: 9%;
+        text-indent: -142%;
+        left: 43%;
+    }
+    a{
+        @extend %link-shared;
+        left: 4%;
+        bottom: 5%;
+        width: 130px;
+        height: 25px;
+        border-radius: 8px;
+        line-height: 25px;
+        font-size: 0.8rem;
+    }
+    a:hover{
+        background: $font-color;
+        color: $hover-color;
+        border: 2px solid $hover-color;
+    }
+}
